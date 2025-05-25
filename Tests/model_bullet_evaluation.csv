@@ -1,0 +1,21 @@
+paper,model,bullet_count,has_duplicates,format_ok,avg_length,embedding_diversity
+Tri-Level Navigator LLM-Empowered Tri-Level Learning for Time Series OOD Generalization.pdf,gpt3.5-turbo,4,False,True,132.8,0.4376
+FinBen A Holistic Financial Benchmark for Large Language Models.pdf,gpt3.5-turbo,4,False,True,182.2,0.5034
+"Magnet We Never Know How Text-to-Image Diffusion Models Work, Until We Learn How Vision-Language Models Function.pdf",gpt3.5-turbo,5,False,True,130.2,0.554
+Deep Graph Mating.pdf,gpt3.5-turbo,5,False,True,175.0,0.4958
+Foundation Inference Models for Markov Jump Processes.pdf,gpt3.5-turbo,3,False,True,189.3,0.5159
+Tri-Level Navigator LLM-Empowered Tri-Level Learning for Time Series OOD Generalization.pdf,gpt4.1-nano,5,False,True,147.2,0.5418
+FinBen A Holistic Financial Benchmark for Large Language Models.pdf,gpt4.1-nano,4,False,True,161.5,0.505
+"Magnet We Never Know How Text-to-Image Diffusion Models Work, Until We Learn How Vision-Language Models Function.pdf",gpt4.1-nano,6,False,True,101.0,0.5434
+Deep Graph Mating.pdf,gpt4.1-nano,5,False,True,165.0,0.5144
+Foundation Inference Models for Markov Jump Processes.pdf,gpt4.1-nano,5,False,True,183.6,0.5515
+Tri-Level Navigator LLM-Empowered Tri-Level Learning for Time Series OOD Generalization.pdf,gpt4.1,4,False,True,90.0,0.5126
+FinBen A Holistic Financial Benchmark for Large Language Models.pdf,gpt4.1,4,False,True,194.5,0.5581
+"Magnet We Never Know How Text-to-Image Diffusion Models Work, Until We Learn How Vision-Language Models Function.pdf",gpt4.1,6,False,True,127.5,0.5045
+Deep Graph Mating.pdf,gpt4.1,5,False,True,135.6,0.4373
+Foundation Inference Models for Markov Jump Processes.pdf,gpt4.1,4,False,True,183.8,0.5707
+Tri-Level Navigator LLM-Empowered Tri-Level Learning for Time Series OOD Generalization.pdf,meta-llama,1,False,True,408.0,0.0
+FinBen A Holistic Financial Benchmark for Large Language Models.pdf,meta-llama,5,False,True,109.4,0.5549
+"Magnet We Never Know How Text-to-Image Diffusion Models Work, Until We Learn How Vision-Language Models Function.pdf",meta-llama,1,False,True,76.0,0.0
+Deep Graph Mating.pdf,meta-llama,6,False,True,129.5,0.4557
+Foundation Inference Models for Markov Jump Processes.pdf,meta-llama,5,False,True,100.6,0.5881
