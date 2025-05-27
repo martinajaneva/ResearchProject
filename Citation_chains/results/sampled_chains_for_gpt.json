@@ -1,0 +1,188 @@
+[
+  {
+    "chain": [
+      {
+        "node": "deepgenerativemodelswithlearnableknowledgeconstraints",
+        "title": "Deep Generative Models with Learnable Knowledge Constraints",
+        "year": 2018,
+        "limitations": "- The approach is based on the E-step, which may not be suitable for all types of domain knowledge.  \n- It is not suitable for the generalizability of the approach to all domains, such as deep generative models (DGMs), and may not work for all domain knowledge, especially for complex domain knowledge like deep learning (RL).  \u0013- The current approach does not address all domains or domains, but it does address some domain knowledge problems. "
+      },
+      {
+        "node": "poseguidedpersonimagegeneration",
+        "title": "Pose Guided Person Image Generation",
+        "year": 2017,
+        "limitations": "- The method relies on a U-Net-like generator to generate person images.\n- The generation process relies on the model's model's image model, which may not fully capture the real-world structure of a person.\n\u2010 The model's ability to generate real-time person images is limited by the model\u2019s computational resources, which are limited by its computational resources."
+      },
+      {
+        "node": "improvedtechniquesfortraininggans",
+        "title": "Improved Techniques for Training GANs",
+        "year": 2016,
+        "limitations": "- The study is limited to generative adversarial networks (GANs) and does not address the generalizability of generative networks.  \n- The authors acknowledge that the study does not cover all generative neural networks, such as CIFAR-10 and SVHN, and do not address other generative network architectures."
+      },
+      {
+        "node": "semisupervisedlearningwithladdernetworks",
+        "title": "Semi supervised Learning with Ladder Networks",
+        "year": 2015,
+        "limitations": "- The study focuses solely on unsupervised learning in deep neural networks.  \n- The model is limited to the CIFAR-10 classification task, which may not be suitable for other tasks."
+      },
+      {
+        "node": "discriminativeunsupervisedfeaturelearningwithconvolutionalneuralnetworks",
+        "title": "Discriminative Unsupervised Feature Learning with Convolutional Neural Networks",
+        "year": 2014,
+        "limitations": "- The method is limited to the generalizability of the model, which may limit its applicability to other tasks.\n- The model is limited by the size of the dataset, which limits the applicability of it to other types of object recognition tasks."
+      }
+    ],
+    "similarities": [
+      0.13210475584108838,
+      0.1279541028866822,
+      0.32677891505703394,
+      0.3825593213636703
+    ]
+  },
+  {
+    "chain": [
+      {
+        "node": "parallelbayesianoptimizationofmultiplenoisyobjectiveswithexpectedhypervolumeimprovement",
+        "title": "Parallel Bayesian Optimization of Multiple Noisy Objectives with Expected Hypervolume Improvement",
+        "year": 2021,
+        "limitations": "- The study primarily focuses on the evaluation of the performance of qNEHVI-1, which may not be applicable to all other MOBO algorithms.\n- The evaluation is limited to noisy and noiseless environments, and it does not address the generalizability of the evaluation process."
+      },
+      {
+        "node": "botorchaframeworkforefficientmontecarlobayesianoptimization",
+        "title": "BoTorch  A Framework for Efficient Monte Carlo Bayesian Optimization",
+        "year": 2020,
+        "limitations": "- The approach is based on the BOTORCH model, which may not fully capture the full potential of the model.  \n- It is not suitable for the general probabilistic programming of the BO model, as it does not fully incorporate the model-based approach."
+      },
+      {
+        "node": "gpytorchblackboxmatrixmatrixgaussianprocessinferencewithgpuacceleration",
+        "title": "GPyTorch  Blackbox Matrix Matrix Gaussian Process Inference with GPU Acceleration",
+        "year": 2018,
+        "limitations": "- The method is based on the Cholesky decomposition, which is not suitable for parallel hardware.  \n- It does not address the hyperparameter problem, which may limit the applicability of the method to parallel hardware, such as GPUs or GPUs."
+      },
+      {
+        "node": "scalablelogdeterminantsforgaussianprocesskernellearning",
+        "title": "Scalable Log Determinants for Gaussian Process Kernel Learning",
+        "year": 2017,
+        "limitations": "- The method is not suitable for all Gaussian processes (GPs) due to the high computational costs associated with the method.\n- The approach is not scalable for all GPs, and it may not be suitable for other Gaussian process types.\n\u2013 The method's performance is limited by the number of Gaussian matrices, which may limit its applicability to other Gauss-based methods."
+      },
+      {
+        "node": "stochasticvariationaldeepkernellearning",
+        "title": "Stochastic Variational Deep Kernel Learning",
+        "year": 2016,
+        "limitations": "- The approach relies on the Gaussian process marginal likelihood objective, which may not be suitable for deep learning architectures.\n- The method's performance is limited by its reliance on Gaussian processes, which can be computationally expensive.\n\u2010 The approach is limited to large datasets, which could limit its applicability to deep learning applications.  \n- Future work will focus on developing a more efficient Gaussian method for deep kernel learning."
+      },
+      {
+        "node": "mcmcforvariationallysparsegaussianprocesses",
+        "title": "MCMC for Variationally Sparse Gaussian Processes",
+        "year": 2015,
+        "limitations": "- The study focuses on inducing points Z, which may not fully capture the full potential of the posterior.\n- The authors acknowledge that the posterior is sparse, but they do not explicitly address the posterior, which is a key limitation of their work.\n\u2013 The authors do not address the generalizability of inducing points (e.g., p(Z) and p(z) in their work, which could be addressed by exploring the posterior's potential."
+      }
+    ],
+    "similarities": [
+      0.3119962457346358,
+      0.34997281063993346,
+      0.3863616413667681,
+      0.4454292758080339,
+      0.19026805233781807
+    ]
+  },
+  {
+    "chain": [
+      {
+        "node": "hierarchicalrandomizedsmoothing",
+        "title": "Hierarchical Randomized Smoothing",
+        "year": 2023,
+        "limitations": "- The hierarchical smoothing method is limited to discrete and continuous domains, which may limit its applicability to other domains.\n- The method's performance is limited by the complexity of the dataset, which can be affected by adversarial perturbations, such as adversarial noise, which could affect the robustness of the smoothing distribution.  \n- It may not be suitable for all domains, such a large number of objects, and it may not fully capture the complexity and scalability of adversarial smoothing."
+      },
+      {
+        "node": "certifiedadversarialrobustnesswithadditivenoise",
+        "title": "Certified Adversarial Robustness with Additive Noise",
+        "year": 2019,
+        "limitations": "- The method relies on Gaussian and Laplacian distributions, which may not be suitable for large-scale adversarial data sets.\n- It is not suitable for training adversarial adversarial models, as Gaussian distributions are not robust to Gaussian perturbation.\n\n- The approach is limited to large-sized adversarial datasets, and it may not fully capture the robustness of adversarial distributions."
+      },
+      {
+        "node": "learningwithpseudoensembles",
+        "title": "Learning with Pseudo Ensembles",
+        "year": 2014,
+        "limitations": "- The current pseudo-ensemble is limited to the semi-supervised setting, which may limit its applicability to other scenarios.  \n- The study does not explore the potential for future research to explore pseudo-e.g., the potential of pseudo-extension to other models."
+      }
+    ],
+    "similarities": [
+      0.45828090886138717,
+      0.21716541901357958
+    ]
+  },
+  {
+    "chain": [
+      {
+        "node": "boostingadversarialtrainingwithhypersphereembedding",
+        "title": "Boosting Adversarial Training with Hypersphere Embedding",
+        "year": 2020,
+        "limitations": "- The authors acknowledge that HE may not be suitable for all adversarial training tasks, but they acknowledge that it may be effective in some cases.\n- The proposed approach is based on a single hyperparameter, which may not fully capture the full range of adversarial attacks, such as the CIFAR-10 and ImageNet attacks.\n\n- It may not capture the complexity of the adversarial attack, as it may not accurately capture the robustness of the attack.\n\n\n\n -abled suscept \ufffd \"'andal sub pret M"
+      },
+      {
+        "node": "arelabelsrequiredforimprovingadversarialrobustness",
+        "title": "Are Labels Required for Improving Adversarial Robustness ",
+        "year": 2019,
+        "limitations": "- UAT++ is limited in its ability to learn adversarial perturbations, which may limit its applicability to other adversarial training methods.\n- The study does not address the limitations of the approach, which are not fully understood.\n\u2013 The study focuses on the limitations and limitations of UAT's approach, and does not explore the potential for future research.\n\u2010 The study is limited to CIFAR-10 and SVHN, and is limited by its limitations and generalizability."
+      },
+      {
+        "node": "learningwithpseudoensembles",
+        "title": "Learning with Pseudo Ensembles",
+        "year": 2014,
+        "limitations": "- The current pseudo-ensemble is limited to the semi-supervised setting, which may limit its applicability to other scenarios.  \n- The study does not explore the potential for future research to explore pseudo-e.g., the potential of pseudo-extension to other models."
+      }
+    ],
+    "similarities": [
+      0.35968035043230884,
+      0.4904780609053613
+    ]
+  },
+  {
+    "chain": [
+      {
+        "node": "boostingadversarialtrainingwithhypersphereembedding",
+        "title": "Boosting Adversarial Training with Hypersphere Embedding",
+        "year": 2020,
+        "limitations": "- The authors acknowledge that HE may not be suitable for all adversarial training tasks, but they acknowledge that it may be effective in some cases.\n- The proposed approach is based on a single hyperparameter, which may not fully capture the full range of adversarial attacks, such as the CIFAR-10 and ImageNet attacks.\n\n- It may not capture the complexity of the adversarial attack, as it may not accurately capture the robustness of the attack.\n\n\n\n -abled suscept \ufffd \"'andal sub pret M"
+      },
+      {
+        "node": "unlabeleddataimprovesadversarialrobustness",
+        "title": "Unlabeled Data Improves Adversarial Robustness",
+        "year": 2019,
+        "limitations": "- The study does not address the robustness gap between standard and robustness.  \n- The authors acknowledge that the dataset's robustness is limited by the number of labels required for robustness, which may not be fully understood."
+      },
+      {
+        "node": "meanteachersarebetterrolemodelsweightaveragedconsistencytargetsimprovesemisuperviseddeeplearningresults",
+        "title": "Mean teachers are better role models  Weight averaged consistency targets improve semi supervised deep learning results",
+        "year": 2017,
+        "limitations": "- Mean Teacher is limited to large datasets and on-line learning.  \n- It may not be suitable for large datasets, such as large image sizes or large images with large images, where it may not fully capture the full range of data and data used.\n- The method may not capture all data, which may limit its applicability to larger datasets."
+      },
+      {
+        "node": "weightnormalizationasimplereparameterizationtoacceleratetrainingofdeepneuralnetworks",
+        "title": "Weight Normalization  A Simple Reparameterization to Accelerate Training of Deep Neural Networks",
+        "year": 2016,
+        "limitations": "- The method is limited to supervised image recognition, generative modelling, and deep reinforcement learning.  \n- It is not suitable for deep learning applications, such as image recognition or deep reinforcement training, where weight normalization may not be suitable."
+      },
+      {
+        "node": "naturalneuralnetworks",
+        "title": "Natural Neural Networks",
+        "year": 2015,
+        "limitations": "- The current approach is limited to deep neural networks, and it may not be suitable for other neural networks.\n- The proposed approach is based on the assumption that deep neural network weights are invariant, which may not fully capture the full complexity of the Fisher matrix, which is not supported by the current approach.\n\u2010 The proposed method may not capture the complexity and complexity of Fisher matrix weights, which could limit its applicability to other neural network architectures.\n\u2013 The current method does not address these limitations, but it may be applicable to other types of neural networks as well."
+      },
+      {
+        "node": "projectednaturalactorcritic",
+        "title": "Projected Natural Actor Critic",
+        "year": 2013,
+        "limitations": "- The study is limited to natural actor-critic algorithms, which may not be suitable for other types of reinforcement learning.\n- The authors are interested in exploring the relationship between the natural and mirror descent algorithms, and their applicability to other kinds of reinforcement-learning algorithms, such as reinforcement learning, and the generalizability of natural actors-critics to other domains.\n\u2010 The authors acknowledge that natural actors may not always perform well in certain contexts, such in cases where natural actors are not well-trained."
+      }
+    ],
+    "similarities": [
+      0.3603759537275446,
+      0.12751075572043477,
+      0.2143166800547727,
+      0.21998043307968534,
+      0.27495530231079246
+    ]
+  }
+]

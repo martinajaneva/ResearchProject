@@ -1,0 +1,236 @@
+[
+  {
+    "chain_index": 0,
+    "chain": {
+      "chain": [
+        {
+          "node": "parallelbayesianoptimizationofmultiplenoisyobjectiveswithexpectedhypervolumeimprovement",
+          "title": "Parallel Bayesian Optimization of Multiple Noisy Objectives with Expected Hypervolume Improvement",
+          "year": 2021,
+          "limitations": "- The study primarily focuses on the evaluation of the performance of qNEHVI-1, which may not be applicable to all other MOBO algorithms.\n- The evaluation is limited to noisy and noiseless environments, and it does not address the generalizability of the evaluation process."
+        },
+        {
+          "node": "botorchaframeworkforefficientmontecarlobayesianoptimization",
+          "title": "BoTorch  A Framework for Efficient Monte Carlo Bayesian Optimization",
+          "year": 2020,
+          "limitations": "- The approach is based on the BOTORCH model, which may not fully capture the full potential of the model.  \n- It is not suitable for the general probabilistic programming of the BO model, as it does not fully incorporate the model-based approach."
+        },
+        {
+          "node": "geometricallycoupledmontecarlosampling",
+          "title": "Geometrically Coupled Monte Carlo Sampling",
+          "year": 2018,
+          "limitations": "- The results are limited to Euclidean spaces, and may not fully capture the generalizability of the problem.\n- The study does not address the generalization of the Problem (4), which may not be applicable to other problems, such as the problem (4).\n- Future work should focus on improving the problem\u2019s efficiency and the general applicability of problem (3) to other tasks.\n\u2010 The study is limited to the problem, and does not explore other problems."
+        },
+        {
+          "node": "orthogonalrandomfeatures",
+          "title": "Orthogonal Random Features",
+          "year": 2016,
+          "limitations": "- The method is based on a single orthogonal matrix, which may not be suitable for all applications.\n- The current method does not address all applications, such as the generalizability of the method to other applications."
+        },
+        {
+          "node": "practicalandoptimallshforangulardistance",
+          "title": "Practical and Optimal LSH for Angular Distance",
+          "year": 2015,
+          "limitations": "- The evaluation time of the LSH family is limited by the number of iterations, which may not be optimal for real-world applications.\n- The method is not suitable for the hyperplane LSH, as it may not perform well on real-time data sets with a large number of hyperplanes, such as those with large hyperplanes (e.g., Spherical LSH).\n- It is not feasible for hyperplanes to perform hyperplane searches with hyperplanes due to the high number of orthogonal hyperplanes."
+        }
+      ],
+      "similarities": [
+        0.33332783755738904,
+        0.3424423550780643,
+        0.3322258358578884,
+        0.3149909698737053
+      ]
+    },
+    "gpt_analysis": "The limitations in later papers tend to **repeat** or **narrow** those from earlier works rather than directly addressing or expanding upon them. Specifically:\n\n- **Early papers** (e.g., Paper 5, 2015; Paper 4, 2016) highlight fundamental methodological constraints and generalizability issues, such as limited applicability to real-time data or broader applications.\n- **Mid-stage papers** (e.g., Paper 3, 2018; Paper 2, 2020) acknowledge these limitations but focus on specific contexts (e.g., Euclidean spaces, the BOTORCH framework) without fully resolving the broader generalizability concerns.\n- **Later paper** (Paper 1, 2021) discusses limitations related to the scope of evaluation (e.g., specific algorithms and environments), which are consistent with earlier limitations but do not explicitly address or overcome them.\n\n**Overall**, the limitations tend to **persist or slightly narrow** over time, often reiterating issues of applicability and generalization without substantial resolution or expansion."
+  },
+  {
+    "chain_index": 1,
+    "chain": {
+      "chain": [
+        {
+          "node": "mssvtmixedscalesparsevoxeltransformerfor3dobjectdetectiononpointclouds",
+          "title": "MsSVT: Mixed-scale Sparse Voxel Transformer for 3D Object Detection on Point Clouds",
+          "year": 2022,
+          "limitations": "- The study primarily focuses on detecting large-scale objects, which may not be suitable for autonomous driving applications.\n- The authors acknowledge that the study is limited to small-scale object detection tasks, such as autonomous driving, and do not address the need for more sophisticated multi-stage detectors.\n\u2013 The study does not address other types of object detection, such like autonomous driving.\n\u2010 The study focuses on the use of multi-window detectors for object detection and does not explore other methods for object-based detection."
+        },
+        {
+          "node": "cagroup3dclassawaregroupingfor3dobjectdetectiononpointclouds",
+          "title": "CAGroup3D: Class-Aware Grouping for 3D Object Detection on Point Clouds",
+          "year": 2022,
+          "limitations": "- The method relies on the RoI-Convolutional pooling module, which may not be suitable for large-scale 3D applications.  \n- It is not suitable for larger datasets, such as indoor or outdoor 3D models, where it may not fully capture all 3D features. "
+        },
+        {
+          "node": "nonconvexdistributionallyrobustoptimizationnonasymptoticanalysis",
+          "title": "Non-convex Distributionally Robust Optimization: Non-asymptotic Analysis",
+          "year": 2021,
+          "limitations": "- The study focuses on the generalizability of the objective function in DRO.\n- The theoretical results are based on the assumption that the objective functions are non-convex, non-smooth, and non-negative convex functions.  \n- There is a need for further research to explore the generalization of the method to other domains."
+        },
+        {
+          "node": "largescalemethodsfordistributionallyrobustoptimization",
+          "title": "Large Scale Methods for Distributionally Robust Optimization",
+          "year": 2020,
+          "limitations": "- The MLMC guarantees are unimprovable in large-scale applications.\n- The guarantees are not applicable to all algorithms, such as those used in the current work."
+        },
+        {
+          "node": "scalableendtoendautonomousvehicletestingviarareeventsimulation",
+          "title": "Scalable End to End Autonomous Vehicle Testing via Rare event Simulation",
+          "year": 2018,
+          "limitations": "- The study is limited to a single scenario, with a limited number of vehicles.\n- The simulation assumes that all vehicles are in the environment, which may not be true for all scenarios.  \n- Future work aims to expand the simulation to include other scenarios, such as those involving autonomous vehicles."
+        },
+        {
+          "node": "variationaldropoutandthelocalreparameterizationtrick",
+          "title": "Variational Dropout and the Local Reparameterization Trick",
+          "year": 2015,
+          "limitations": "- The method relies on local reparameterization, which can be computationally expensive and may not be suitable for large datasets.  \n- It is not suitable for larger datasets with large datasets, such as large datasets with larger datasets."
+        }
+      ],
+      "similarities": [
+        0.20452869978288946,
+        0.10882449275975467,
+        0.24187699227569556,
+        0.2761312048408068,
+        0.12402750641380252
+      ]
+    },
+    "gpt_analysis": "The limitations in the citation chain show a progression from addressing specific, domain-focused issues to broader methodological constraints, with some repetition and refinement over time.\n\nSummary of evolution:\n- **Early papers (2015-2018)** focus on technical and computational limitations of specific methods\u2014such as computational expense (Paper 6) and limited scenario scope (Paper 5)\u2014highlighting challenges in scalability and generalizability.\n- **Mid papers (2020-2022)** expand to broader application issues in large-scale and complex datasets, noting that certain methods (e.g., distributionally robust optimization, object detection modules) are not suitable for large-scale or diverse environments, thus addressing scalability and applicability limitations.\n- **Later papers (2022)** tend to specify that their methods are limited to particular contexts (small-scale object detection, specific datasets) and do not address broader scenarios, often reiterating the scope limitations rather than solving them.\n- **Overall trend:** Later papers **expand** on the types of limitations (e.g., dataset scale, application scope), but some **repeat** earlier concerns about computational expense and scope restrictions, without fully overcoming these challenges.\n\nIn essence, the chain shows a pattern where each work acknowledges its scope limitations, sometimes building on previous constraints but rarely providing solutions that fully address the scalability or generalizability issues raised earlier."
+  },
+  {
+    "chain_index": 2,
+    "chain": {
+      "chain": [
+        {
+          "node": "mechanicalearningratetuner",
+          "title": "Mechanic: A Learning Rate Tuner",
+          "year": 2023,
+          "limitations": "- The paper introduces MECHANIC, a technique for automatically learning the appropriate learning rate scale, tested across various deep learning tasks.\n- MECHANIC can outperform manual learning rate tuning in some cases and is effective for both training from scratch and fine-tuning.\n- Limitations include reduced effectiveness when combined with dropout, possibly due to fundamental incompatibilities.\n- MECHANIC optimizes the training loss directly, which differs from manual tuning that focuses on validation set performance, presenting a potential issue.\n- Future research directions include addressing dropout compatibility and developing a more principled approach to aligning training-loss optimization with validation performance."
+        },
+        {
+          "node": "symbolicdiscoveryofoptimizationalgorithms",
+          "title": "Symbolic Discovery of Optimization Algorithms",
+          "year": 2023,
+          "limitations": "- The search space is biased towards first-order optimization algorithms and lacks functions for constructing advanced second-order algorithms, limiting discovery of more novel methods; the search process is also computationally expensive and requires manual tuning.\n- The current program structure is simple and does not utilize more advanced constructs like conditionals, loops, or defining new functions, which could lead to new algorithmic possibilities.\n- Evaluation of the Lion optimizer is limited to selected tasks; it shows minimal performance differences from AdamW and momentum SGD on certain vision tasks, likely due to the ease of optimizing ConvNets compared to Transformers.\n- Lion\u2019s performance gains diminish with strong data augmentations and are comparable to AdamW on large-scale, high-quality datasets, indicating less advantage in such scenarios.\n- The effectiveness of Lion may be constrained by batch size, performing similarly to AdamW at small batch sizes (<64), and it requires memory-intensive momentum tracking in bfloat16, which can be costly for large models; potential memory-saving approaches such as momentum factorization are suggested."
+        },
+        {
+          "node": "coatnetmarryingconvolutionandattentionforalldatasizes",
+          "title": "CoAtNet: Marrying Convolution and Attention for All Data Sizes",
+          "year": 2021,
+          "limitations": "- CoAtNet's generalization and generalization are based on the properties of convolutional networks, which may not fully capture the full potential of Transformers.  \n- The method is based on a single model, which is not applicable to all models."
+        },
+        {
+          "node": "attentionisallyouneed",
+          "title": "Attention is All you Need",
+          "year": 2017,
+          "limitations": "- The Transformer is based on a recurrent encoder and decoder configuration, which may not fully capture the full complexity of the encoder-decoder architecture.\n- The model's performance is limited by the number of encoder layers used, which can be computationally expensive.\n\u2010 The model is limited to the current encoder, decoder, encoder decoder and encoder architectures, which are not suitable for the current encoding and decoding architectures.  \n- Future work could explore extending the Transformer to include other encoder or decoder architectures."
+        },
+        {
+          "node": "canactivememoryreplaceattention",
+          "title": "Can Active Memory Replace Attention ",
+          "year": 2016,
+          "limitations": "- The study primarily focuses on the model\u2019s ability to focus on specific parts of its input or memory.  \n- It does not explore the potential of active memory for other tasks, such as image captioning, image caption editing, or generative modeling. \n\u2013 The study does not address the specific limitations of the active memory model. "
+        },
+        {
+          "node": "convolutionallstmnetworkamachinelearningapproachforprecipitationnowcasting",
+          "title": "Convolutional LSTM Network  A Machine Learning Approach for Precipitation Nowcasting",
+          "year": 2015,
+          "limitations": "- The paper successfully applies deep learning, specifically ConvLSTM, to the challenging problem of precipitation nowcasting, which has previously lacked sophisticated machine learning solutions.\n- Precipitation nowcasting is formulated as a spatiotemporal sequence forecasting problem, guiding the development of the model.\n- ConvLSTM is introduced as an extension of traditional LSTM that incorporates convolutional structures, making it well-suited for modeling spatiotemporal data.\n- The proposed model integrates ConvLSTM into an end-to-end trainable architecture, enabling effective precipitation prediction.\n- Future research directions include applying ConvLSTM to video-based action recognition by combining it with convolutional neural networks for improved classification tasks."
+        }
+      ],
+      "similarities": [
+        0.19845020333855826,
+        0.2325399168514975,
+        0.2860345586858745,
+        0.204522284566669,
+        0.16984999587274993
+      ]
+    },
+    "gpt_analysis": "The limitations in later papers generally expand upon or specify issues from earlier works rather than directly addressing or resolving them. Early papers, such as the 2015 ConvLSTM study, focus on application-specific limitations (e.g., suitability for precipitation forecasting), with limited discussion of broader model constraints. The 2016 active memory paper highlights task-specific focus without exploring broader applicability. The 2017 Transformer paper notes architectural limitations and computational costs, suggesting future extensions but not resolving current constraints.\n\nSubsequent papers, like the 2021 CoAtNet and 2023 optimization algorithm and learning rate papers, introduce more nuanced limitations\u2014such as generalization bounds, computational expense, and compatibility issues\u2014that expand the scope of challenges. The 2023 papers further specify constraints related to model compatibility (dropout issues with MECHANIC, memory costs for Lion optimizer), and the 2023 optimization search emphasizes the difficulty of discovering advanced algorithms within limited search spaces.\n\nOverall, the evolution shows a progression from application-specific limitations toward more detailed, systemic issues related to model generalization, computational efficiency, and compatibility. Later papers tend to expand on the complexity and scope of the limitations rather than directly addressing or solving earlier constraints."
+  },
+  {
+    "chain_index": 3,
+    "chain": {
+      "chain": [
+        {
+          "node": "mechanicalearningratetuner",
+          "title": "Mechanic: A Learning Rate Tuner",
+          "year": 2023,
+          "limitations": "- The paper introduces MECHANIC, a technique for automatically learning the appropriate learning rate scale, tested across various deep learning tasks.\n- MECHANIC can outperform manual learning rate tuning in some cases and is effective for both training from scratch and fine-tuning.\n- Limitations include reduced effectiveness when combined with dropout, possibly due to fundamental incompatibilities.\n- MECHANIC optimizes the training loss directly, which differs from manual tuning that focuses on validation set performance, presenting a potential issue.\n- Future research directions include addressing dropout compatibility and developing a more principled approach to aligning training-loss optimization with validation performance."
+        },
+        {
+          "node": "symbolicdiscoveryofoptimizationalgorithms",
+          "title": "Symbolic Discovery of Optimization Algorithms",
+          "year": 2023,
+          "limitations": "- The search space is biased towards first-order optimization algorithms and lacks functions for constructing advanced second-order algorithms, limiting discovery of more novel methods; the search process is also computationally expensive and requires manual tuning.\n- The current program structure is simple and does not utilize more advanced constructs like conditionals, loops, or defining new functions, which could lead to new algorithmic possibilities.\n- Evaluation of the Lion optimizer is limited to selected tasks; it shows minimal performance differences from AdamW and momentum SGD on certain vision tasks, likely due to the ease of optimizing ConvNets compared to Transformers.\n- Lion\u2019s performance gains diminish with strong data augmentations and are comparable to AdamW on large-scale, high-quality datasets, indicating less advantage in such scenarios.\n- The effectiveness of Lion may be constrained by batch size, performing similarly to AdamW at small batch sizes (<64), and it requires memory-intensive momentum tracking in bfloat16, which can be costly for large models; potential memory-saving approaches such as momentum factorization are suggested."
+        },
+        {
+          "node": "pyglovesymbolicprogrammingforautomatedmachinelearning",
+          "title": "PyGlove  Symbolic Programming for Automated Machine Learning",
+          "year": 2020,
+          "limitations": "- The method is based on a simple search algorithm, which is not suitable for real-world applications.  \n- It is not applicable to other models, such as neural networks, where the search algorithm is not fully understood. \n\u2013 The method's applicability to other architectures is limited by the complexity of the search algorithms, which may not be fully understood by other models."
+        },
+        {
+          "node": "memoryaugmentedpolicyoptimizationforprogramsynthesisandsemanticparsing",
+          "title": "Memory Augmented Policy Optimization for Program Synthesis and Semantic Parsing",
+          "year": 2018,
+          "limitations": "- MAPO is limited to deterministic environments with sparse rewards, such as deterministic or combinatorial optimization tasks.\n- It is not suitable for tasks with high reward trajectories.\n\u2013 The approach is limited in scope, and it may not be suitable for more complex or complex scenarios."
+        },
+        {
+          "node": "towardsgeneralizationandsimplicityincontinuouscontrol",
+          "title": "Towards Generalization and Simplicity in Continuous Control",
+          "year": 2017,
+          "limitations": "- The study primarily focuses on the training scenarios, which may not fully capture the generalizability and robustness of the model.\n- The authors acknowledge that the model may not be fully representative of the real world, which is important for future research."
+        },
+        {
+          "node": "learningcontinuouscontrolpoliciesbystochasticvaluegradients",
+          "title": "Learning Continuous Control Policies by Stochastic Value Gradients",
+          "year": 2015,
+          "limitations": "- SVG(1) does not fully capture the complexity of stochastic dynamics, which may limit its applicability to other domains.  \n- The framework does not capture the complexities of deterministic dynamics, such as the problem of the Bellman equation, which can be difficult to understand. \n\u2010 The framework is limited to deterministic models, which are not suitable for continuous control problems."
+        }
+      ],
+      "similarities": [
+        0.19844183546443597,
+        0.26122631187491674,
+        0.2322370391624305,
+        0.14234246039446702,
+        0.3896170637544673
+      ]
+    },
+    "gpt_analysis": "The limitations across the citation chain show an evolving pattern where later papers tend to address, refine, or expand upon earlier limitations, though some issues remain persistent or are only indirectly touched upon.\n\n**Summary of the evolution:**\n\n- **Early papers (2015\u20132018):**  \n  These focus on fundamental methodological constraints\u2014e.g., the limited scope of search algorithms (PyGlove, 2020), applicability only to specific environments (Memory Augmented Policy Optimization, 2018), and the inability to handle complex dynamics or broader model types. They highlight issues like simplicity, scope restrictions, and limited generalizability.\n\n- **Mid papers (2017\u20132023):**  \n  As research progresses, limitations shift toward more specific technical challenges\u2014e.g., the training scenarios not fully capturing real-world complexities (2017), and the effectiveness of optimization algorithms being constrained by data augmentation or batch size (2023). These reflect attempts to improve robustness and applicability but still acknowledge gaps in real-world generalization.\n\n- **Later papers (2023):**  \n  The most recent work (Mechanic, 2023; Symbolic Discovery, 2023) directly address earlier limitations by exploring more nuanced issues\u2014such as the incompatibility of MECHANIC with dropout, the computational expense and scope limitations of search-based methods, and the performance constraints of optimization algorithms under certain conditions. They also identify new challenges like the need for more principled approaches and better alignment with validation performance.\n\n**Overall,** the limitations evolve from broad scope and applicability issues to more refined technical challenges, with later papers attempting to address or mitigate earlier constraints, though some fundamental issues (e.g., scope, generalization) persist as ongoing research directions."
+  },
+  {
+    "chain_index": 4,
+    "chain": {
+      "chain": [
+        {
+          "node": "mssvtmixedscalesparsevoxeltransformerfor3dobjectdetectiononpointclouds",
+          "title": "MsSVT: Mixed-scale Sparse Voxel Transformer for 3D Object Detection on Point Clouds",
+          "year": 2022,
+          "limitations": "- The study primarily focuses on detecting large-scale objects, which may not be suitable for autonomous driving applications.\n- The authors acknowledge that the study is limited to small-scale object detection tasks, such as autonomous driving, and do not address the need for more sophisticated multi-stage detectors.\n\u2013 The study does not address other types of object detection, such like autonomous driving.\n\u2010 The study focuses on the use of multi-window detectors for object detection and does not explore other methods for object-based detection."
+        },
+        {
+          "node": "everyviewcountscrossviewconsistencyin3dobjectdetectionwithhybridcylindricalsphericalvoxelization",
+          "title": "Every View Counts  Cross View Consistency in 3D Object Detection with Hybrid Cylindrical Spherical Voxelization",
+          "year": 2020,
+          "limitations": "- The approach relies on a single view, which may not be suitable for autonomous vehicles.\n- The method is limited to autonomous vehicles and does not fully capture the full range of motion of the vehicle.\n\u2013 The method does not capture all motion of vehicles, which could limit its applicability to other types of vehicles."
+        },
+        {
+          "node": "fasterrcnntowardsrealtimeobjectdetectionwithregionproposalnetworks",
+          "title": "Faster R CNN  Towards Real Time Object Detection with Region Proposal Networks",
+          "year": 2015,
+          "limitations": "- The method relies on convolutional features, which can be computationally expensive.  \n- The current method is limited to region proposal algorithms, which may not be suitable for other regions. \n\u2010 The current approach does not address region proposal optimization, which is a limitation of the current method. "
+        },
+        {
+          "node": "deepneuralnetworksforobjectdetection",
+          "title": "Deep Neural Networks for Object Detection",
+          "year": 2013,
+          "limitations": "- The study focuses on object detection as a method for training DNNs.  \n- The method is limited to object detection, which may limit its applicability to other types of object detection."
+        }
+      ],
+      "similarities": [
+        0.3306102564609334,
+        0.35601497165100376,
+        0.25089582968348156
+      ]
+    },
+    "gpt_analysis": "The limitations in the citation chain show an evolving pattern where later papers tend to expand upon or specify the scope of earlier limitations rather than simply repeating them. \n\n- **Paper 4 (2013)** focuses broadly on object detection with DNNs, with limitations centered on the scope of application (only object detection) and methodological focus.  \n- **Paper 3 (2015)** builds on this by addressing computational expense and region proposal limitations, refining the scope to specific techniques but still within the object detection domain.  \n- **Paper 2 (2020)** expands the scope to 3D object detection in autonomous vehicle contexts, highlighting limitations related to single-view reliance and motion capture, thus broadening the application scope and identifying new challenges in multi-view and motion modeling.  \n- **Paper 1 (2022)** further specifies the limitations to large-scale object detection, noting that its focus on small-scale detection (like autonomous driving) restricts its applicability, and it does not explore other detection methods such as multi-stage detectors.\n\n**Summary:**  \nThe limitations evolve from general methodological constraints (Paper 4 and 3) to more application-specific and scope-related issues (Papers 2 and 1). Later papers tend to expand the scope of limitations, addressing new challenges introduced by more complex or specific use cases, rather than merely repeating earlier constraints."
+  }
+]
